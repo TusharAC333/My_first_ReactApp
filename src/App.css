@@ -1,0 +1,71 @@
+.App {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App h1{
+  color: blue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.addTask {
+  height: 20vh;
+  background-color: rgb(0, 119, 255);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.addTask button{
+  border-radius: 7px;
+  border: 2px solid black;
+  color: rgb(0, 4, 250);
+  background-color: rgb(45, 255, 4);
+  height: 30px;
+  margin-left: 15px;
+  
+}
+
+.list {
+  height: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #ff9d00;
+  justify-content: center;
+}
+
+.task button {
+  width: auto;
+  color: rgb(4, 9, 250);
+  background-color: rgb(45, 255, 4);
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+}
+button:hover{
+  background-color: black;
+  color: whitesmoke;
+}
